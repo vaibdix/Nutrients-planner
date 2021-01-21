@@ -1,6 +1,6 @@
 # Nutrients-planner
 
-This is a concept meal planning app that is using API from spoonacular.com to get a daily meal plan based on calory input.
+This is a concept meal planning app that is using API from spoonacular.com to get a daily meal plan based on Calorie input.
 
 ## Available Scripts
 
