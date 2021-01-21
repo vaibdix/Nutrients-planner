@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'IBM Plex Mono', monospace;
+  background-color: #0a192f;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+section {
+  margin: 2rem 0 1rem 0;
+  
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+
+}
+
+input {
+  text-align: center;
+  color: #fff;
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  background: #0a192f;
+  box-shadow: inset 20px 20px 60px #050d18, 
+              inset -20px -20px 60px #0f2546;
+}
+
+button {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-color: #0077ed;
+  color: #f3f3f3;
+  border: none;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 1rem;
+  border-radius: 10px;
+
+}
+
+button:hover {
+  background-color: #FB4545;
+  cursor: pointer;
+
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+             
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #f3f3f3;
+  
+}
+
+.nutrients ul {
+  display: flex;
+  width: 35rem;
+  justify-content: space-evenly;
+  color: #f3f3f3;
+  max-width: 730px;
+  padding: 20px;
+  border-radius: 50px;
+background: #0a192f;
+box-shadow:  17px 17px 34px #060f1c,
+             -17px -17px 34px #0e2342;
+  
+}
+
+.meals {
+  display: flex;
+  color: #f3f3f3;
+}
+
+img {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 15px;
+  background: #0a192f;
+  box-shadow:  17px 17px 34px #060f1c,
+               -17px -17px 34px #0e2342;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  margin: 0 1rem;
+  max-width: 300px;
+  border-radius: 50px;
+background: #0a192f;
+box-shadow:  17px 17px 34px #060f1c,
+             -17px -17px 34px #0e2342;
+             
+  
+}
+
+ul {
+  list-style: none;
+}
+
+.instructions {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  
+}
+
+a {
+  text-decoration: none;
+  background-color: #0077ed;
+  color: #f3f3f3;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+
+a:hover {
+  background-color: #FB4545;
+  cursor: pointer;
+  
+  
+}
+
+@media only screen and (max-width: 1024px) {
+  .meals {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nutrients ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}
